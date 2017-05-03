@@ -180,6 +180,10 @@ a{
   font-style: italic;
 }
 
+.underline{
+	text-decoration: underline;
+}
+
 
 /*COLORS----------*/
 .black{color: #231f20;}
@@ -311,7 +315,7 @@ nav{
 }
 
 .chapters>h1{
-	font-size:37px;
+	font-size:40px;
 	font-family: avantgarde_med;
 	margin-right:5px;
 }
@@ -322,6 +326,26 @@ nav{
 
 .chapters{
 	margin-bottom:35px;
+}
+
+.chapters>h6{
+	margin-bottom: 13px;
+}
+
+.chapters>h6>a{
+	margin-left:2px;
+	margin-right:5px;
+	color:#231f20;
+}
+
+.chapters>h6>a:hover{
+	text-decoration: underline;
+}
+
+.chapterName{
+	font-family: avantgarde_med;
+	font-size:13px;
+	letter-spacing: 0.3px;
 }
 
 .quotationMark{
@@ -366,6 +390,10 @@ nav{
 
 .bottom20{
 	margin-bottom: 20px;
+}
+
+.bottom30{
+	margin-bottom:30px;
 }
 
 .marginTop50{
