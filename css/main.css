@@ -180,6 +180,14 @@ a{
   font-style: italic;
 }
 
+.italicIndex{
+	font-style: italic;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+
 .underline{
 	text-decoration: underline;
 }
@@ -380,6 +388,14 @@ nav{
 	margin-top:30px;
 }
 
+.top35{
+	margin-top:35px;
+}
+
+.top20{
+	margin-top:20px;
+}
+
 .width520{
 	max-width: 520px;
 }
@@ -394,6 +410,10 @@ nav{
 
 .bottom30{
 	margin-bottom:30px;
+}
+
+.marginTop57{
+  margin-top:57px;
 }
 
 .marginTop50{
