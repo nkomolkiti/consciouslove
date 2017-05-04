@@ -1,17 +1,52 @@
 //PREQUIZ--------------------------------------------------------
 var preAnswers1 = $("#pre1a1div, #pre1a2div, #pre1a3div");
+var preAnswers2 = $("#pre2a1div, #pre2a2div");
 var preQuiz = $("#preQuizQuestion");
+var selected;
 
-function preQuizMove1(){
+function preQuizMove(){
   preQuiz.animate({"margin-left":"-=250px"},400);
+  //after 20 seconds, this move back function executes
+  setTimeout( function(){
+    if(!($(".pre2").is(':checked'))){
+      preQuizMoveBack1();
+      debugger
+    }
+  }, 20000)
+
 };
 
-preAnswers1.click(function(){
-  var selected = $("input[type=radio][class=pre1]:checked").val();
+function preQuizMove2(){
+  preQuiz.animate({"margin-left":"-=250px"},400);
+}
+
+function preQuizMoveBack1(){
+  preQuiz.animate({"margin-left":"+=250px"},0);
+  $('.pre1').prop('checked', false); //uncheck question1
+};
+
+function preQuizMoveBack2(){
+  preQuiz.animate({"margin-left":"+=500px"},0);
+  $('.pre1').prop('checked', false); //uncheck question1
+  $('.pre2').prop('checked', false); //uncheck question2
+};
+
+
+preAnswers1.click(function (){
+  selected = $("input[type=radio][class=pre1]:checked").val();
   if(selected === "all"){
-  preQuizMove1();
-  }
+      preQuizMove();
+  };
 });
+
+preAnswers2.click(function (){
+  selected = $("input[type=radio][class=pre2]:checked").val();
+  if(selected === "all"){
+  preQuizMove2();
+  }
+  setTimeout( function(){preQuizMoveBack2();}, 20000)
+});
+
 
 
 //end PREQUIZ----------------------------------------------------

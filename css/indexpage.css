@@ -1,3 +1,7 @@
+.width510{
+	max-width: 510px;
+}
+
 .buttonMargin{
 	margin-top: 35px;
 	margin-bottom:23px;
@@ -32,11 +36,43 @@
 #startTheCourseBtn{
 	max-width: 170px;
 	width: 100%;
+}
 
+#startTheCourseBtnFooter{
+	max-width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+ 	justify-content: space-between;
+}
+
+#startTheCourseBtnFooter div{
+	margin-top:-28px;
+	max-width: 170px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#startTheCourseBtnFooter p{
+	padding:20px;
+	border: solid 1px #231f20;
+}
+
+#startTheCourseBtnFooter p:hover{
+	color:#231f20;
+	background-color:white;
+	font-weight: 700;
+
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease; /* for Safari & Chrome */
+	-moz-transition: all 0.4s ease;
 }
 
 .quoteIndex{
   max-width: 240px;
+	margin-left:100px;
+	padding-top:20px;
 }
 
 
@@ -45,17 +81,47 @@
 #section02{
   background-color:white;
   width: 100vw;
+	margin-top:50px;
+	padding-top:90px;
+}
+
+#section03{
+  width: 100vw;
+}
+
+#section03>div{
+	width:94%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#section03>div>div{
+	width:100%;
+	max-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#section03 p{
+	margin-top:30px;
+}
+
+#section02>div{
+	width:94%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #prequizInside{
-  width:100%;
-  max-width: 1000px;
-  margin-left:auto;
-  margin-right:auto;
+	width:100%;
+	max-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #preQuizQuestion input{
   margin-top:20px;
+	outline: none;
 }
 
 .quizquestion{
@@ -69,7 +135,7 @@
 #preQuizWrapper{
   overflow: hidden;
   width: 220px;
-  height:330px;
+  height:320px;
   background-color:white;
 
   border: solid 2px #ef6f70;
@@ -77,6 +143,10 @@
 
   position: relative;
   padding:30px;
+
+	float:right;
+	margin-top:-300px;
+	right:230px;
 }
 
 #preQuizQuestion{
@@ -100,4 +170,38 @@
 
 .radioTextIndex{
   padding-left:5px;
+}
+
+.buttonMargin1{
+	margin-top:20px;
+}
+
+.top50{
+	margin-top:60px;
+}
+
+.top10{
+	margin-top:10px;
+}
+
+.mainTextIndex{
+	padding-left:90px;
+}
+
+.bottom120{
+	padding-bottom:120px;
+}
+
+.introwords{
+	max-width:800px;
+	margin-top:140px;
+	margin-bottom:80px;
+}
+
+.photoBondingBox{
+	height:550px;
+	width:800px;
+	background-color:gray;
+
+	margin-top:-90px;
 }
