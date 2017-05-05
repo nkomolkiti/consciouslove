@@ -54,18 +54,18 @@ $('.back .flipButton').append('<p>&#10229; BACK</p>');
 
 
 //scroll to top ------------------------------
-// var scroll_top_duration = 700,
-// $back_to_top = $('.cd-top');
-//
-// $back_to_top.on('click', function(event){
-// 		event.preventDefault();
-// 		$('body,html').animate({
-// 			scrollTop: 0 ,
-// 		 	}, scroll_top_duration
-// 		);
-// });
-//
-// //count percentage on load
+var scroll_top_duration = 700,
+$back_to_top = $('.cd-top');
+
+$back_to_top.on('click', function(event){
+		event.preventDefault();
+		$('body,html').animate({
+			scrollTop: 0 ,
+		 	}, scroll_top_duration
+		);
+});
+
+//count percentage on load
 // $(function() {
 //     function count($this){
 //         var current = parseInt($this.html(), 10);
@@ -129,11 +129,13 @@ var minusIcon = $('.toggleMinus');
 plusIcon.append('<img src="image/plus.svg" height="12px">');
 minusIcon.append('<img src="image/minus.svg" width="12px">');
 
+// var tab1title = $('#cssmenu > ul > li:first-child .typesTitle');
 var tab1 = $('#cssmenu > ul > li:first-child > a');
 var tab1Ul = $('#cssmenu > ul > li:first-child > ul');
 var plus1 = $('#cssmenu > ul > li:first-child .togglePlus');
 var minus1 = $('#cssmenu > ul > li:first-child .toggleMinus');
 
+// var tab2title = $('#cssmenu > ul > li:nth-child(2) .typesTitle');
 var tab2 = $('#cssmenu > ul > li:nth-child(2) > a');
 var tab2Ul = $('#cssmenu > ul > li:nth-child(2) > ul');
 var plus2 = $('#cssmenu > ul > li:nth-child(2) .togglePlus');
@@ -190,6 +192,7 @@ var plus12 = $('#cssmenu > ul > li:last-child .togglePlus');
 var minus12 = $('#cssmenu > ul > li:last-child .toggleMinus');
 
 function toggleOpen1(){
+	// tab1title.addClass('typesTitleRed');
 	plus1.addClass('hide');
 	plus1.removeClass('show');
 	minus1.removeClass('hide');
@@ -197,6 +200,7 @@ function toggleOpen1(){
 }
 
 function toggleClose1(){
+	// tab1title.removeClass('typesTitleRed');
 	plus1.addClass('show');
 	plus1.removeClass('hide');
 	minus1.addClass('hide');
@@ -204,6 +208,7 @@ function toggleClose1(){
 }
 
 function toggleOpen2(){
+	// tab2title.addClass('typesTitleRed');
 	plus2.addClass('hide');
 	plus2.removeClass('show');
 	minus2.removeClass('hide');
@@ -211,6 +216,7 @@ function toggleOpen2(){
 }
 
 function toggleClose2(){
+	// tab2title.removeClass('typesTitleRed');
 	plus2.addClass('show');
 	plus2.removeClass('hide');
 	minus2.addClass('hide');

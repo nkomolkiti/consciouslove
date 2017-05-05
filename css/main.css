@@ -59,6 +59,7 @@ body{
 	color:#231f20; /*black*/
 	width:100%;
 	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
 }
 
 
@@ -377,7 +378,7 @@ nav{
 }
 
 .mainText{
-	padding-left:57px;
+	margin-left:57px;
 }
 
 .paragraphText{
@@ -426,6 +427,10 @@ nav{
 
 .marginLeft82{
 	margin-left:82px;
+}
+
+.bottom20{
+	margin-bottom:20px
 }
 
 /*--------------Footer---------------*/

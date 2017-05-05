@@ -52,6 +52,14 @@
    	justify-content: space-between;
 }
 
+.typesTitle:hover{
+  color:#ef6f70;
+}
+
+.typesTitleRed{
+  color:#ef6f70;
+}
+
 #cssmenu hr{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -101,6 +109,7 @@
   margin-left:auto;
   margin-right:auto;
   padding-top:30px;
+  padding-bottom:15px;
 }
 
 #impacts>div{
@@ -108,4 +117,50 @@
   max-width: 1000px;
   margin-left:auto;
   margin-right:auto;
+}
+
+/**------------------- curve elements --------------------**/
+.curveyElementChap2{
+	top: 0;
+	right: 0;
+	height:auto;
+	left: 0;
+	overflow-x: hidden;
+	float:right;
+}
+
+.curveWrapperChap2{
+	right: 0;
+	top:0;
+	left: 0;
+	overflow-y: hidden;
+	z-index: -90;
+	position: absolute;
+	display: block;
+}
+
+.curve_svgchap2 {
+  float: right;
+  margin-top: 380px;
+  margin-right: -100px;
+  /*width: 100%;
+  height: 100%;*/
+}
+
+@media(max-width: 1570px){
+  .curve_svgchap2{
+    margin-right: -200px;
+  }
+}
+
+@media(max-width: 1200px){
+  .curve_svgchap2{
+    margin-top:500px;
+  }
+}
+
+@media(max-width: 900px){
+	.curveWrapperChap2{
+		display:none;
+	}
 }
