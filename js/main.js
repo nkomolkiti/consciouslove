@@ -595,8 +595,6 @@ tab12.click(function(){
 
 
 
-
-
 //TOGGLE TEXT
 $("#cssmenu").addClass("js").before('<a id="nav-toggle" href="#"><span></span></a>');
 $("#nav-toggle").click(function(){
@@ -633,3 +631,44 @@ $('#cssmenu > ul > li > a').click(function() {
 });
 });
 } )( jQuery );
+//END TYPES OF VERBAL ABUSE-------------------------------------
+
+
+//CHAPTER 3 BOXES------------------------------------
+//NAV-------------------------------
+var nav01 = $('.nav1');
+var nav02 = $('.nav2');
+
+//section301------------------------
+var btn301_1N = $('#btn301-1N');
+var btn301_2P = $('#btn301-2P');
+var btn301_2N = $('#btn301-2N');
+var btn301_3P = $('#btn301-3P');
+var btn301_3N = $('#btn301-3N');
+var btn301_4P = $('#btn301-4P');
+var btn301_4N = $('#btn301-4N');
+
+var sec301_1 = $('#section301-1');
+var sec301_2 = $('#section301-2');
+
+btn301_1N.click(function(){
+	sec301_1.removeClass('show');
+	sec301_1.addClass('hide');
+	sec301_2.removeClass('hide');
+	sec301_2.addClass('show');
+	nav01.removeClass('navRed');
+	nav02.addClass('navRed');
+});
+
+btn301_2P.click(function(){
+	sec301_1.addClass('show');
+	sec301_1.removeClass('hide');
+	sec301_2.addClass('hide');
+	sec301_2.removeClass('show');
+	nav01.addClass('navRed');
+	nav02.removeClass('navRed');
+});
+
+
+//section302-----------------------------------------
+

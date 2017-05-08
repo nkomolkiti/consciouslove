@@ -6,7 +6,7 @@
 }
 
 .sectionbox{
-  min-height:480px;
+  min-height:500px;
   max-width:900px;
   width:100%;
   padding:28px;
@@ -16,13 +16,12 @@
 }
 
 .sectionContent{
-  margin-top:24px;
+  margin-top:30px;
 }
 
-/*.sectionContent>img{
-  max-width:650px;
-  min-height:200px;
-}*/
+.sectionContent img{
+  margin-bottom:15px;
+}
 
 a{
   color:#231f20;
@@ -32,21 +31,25 @@ a:hover{
   color:#ef6f70;
 }
 
-.two-column{
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+.three-column{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+    -webkit-column-fill: auto; /* Chrome, Safari, Opera */
+    -moz-column-fill: auto; /* Firefox */
+    column-fill: auto;
 
-    min-height:380px;
+    -webkit-column-gap: 35px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 35px; /* Firefox */
+    column-gap: 35px;
+
+    height:330px;
     margin-top:20px;
-    max-width:650px;
+    max-width:860px;
 }
 
-.two-column>p{
+.three-column>p{
   max-width:300px;
 }
 
@@ -97,22 +100,23 @@ a:hover{
 }
 
 .sectionnav>h6>div{
-  padding-bottom:4px;
-  padding-left:20px;
-  margin-left:20px;
-  border-left: 2px solid #979797;
+  
+  padding-right:20px;
+  margin-right:20px;
+  border-right: 2px solid #979797;
 }
 
-.sectionnav>h6>div:first-child{
-  padding-left:0px;
-  margin-left:0px;
-  border-left:none;
+.sectionnav>h6>div:last-child{
+  padding-right:0px;
+  margin-right:0px;
+  border-right:none;
 }
 
 .navRed{
+  padding-bottom:4px;
   border-bottom: #ef6f70 solid 2px;
 }
 
-.navRed a{
+.navRed a {
   color:#ef6f70;
 }
