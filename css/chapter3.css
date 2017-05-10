@@ -6,9 +6,12 @@
 }
 
 
+.bottom26{
+  margin-bottom:26px;
+}
 
 
-#whiteBgQuote1{
+#whiteBgQuote1, #whiteBgQuote2{
   margin-left:auto;
   margin-right:auto;
   width:100%;
@@ -49,6 +52,7 @@
 
 .sectionContent{
   margin-top:30px;
+  min-height: 300px;
 }
 
 .sectionContent img{
@@ -63,7 +67,11 @@ a:hover{
   color:#ef6f70;
 }
 
-.three-column{
+
+
+/*------------------columns-----------------*/
+
+.three-column, .three-columns, .three-columnss{
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -76,14 +84,33 @@ a:hover{
     -moz-column-gap: 35px; /* Firefox */
     column-gap: 35px;
 
-    height:330px;
+    
     margin-top:20px;
-    max-width:860px;
+    max-width:840px;
+}
+
+.three-column{
+  height:330px;
+}
+
+.three-columns{
+  height:340px;
+}
+
+.three-columnss{
+  height:380px;
 }
 
 .three-column>p{
   max-width:300px;
 }
+
+
+/*-----------------------------*/
+
+
+
+
 
 .titles{
    font-size: 16px;
@@ -105,23 +132,53 @@ a:hover{
 /*------------------section301-----------------*/
 #section301{
   margin-top:50px;
+}
+
+#section301, #section302{
   padding-bottom:50px;
   padding-top:40px;
 
   background: url('../image/white-pattern.png');
   background-repeat: repeat;
+
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#section303{
+  padding-bottom:50px;
+
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#section303>div:first-child{
+  padding-top:40px;
+  background: url('../image/white-pattern.png');
+  background-repeat: repeat;
+  height:300px;
 }
 
 #section301div{
   width:94%;
-  max-width: 1000px;
+  max-width: 956px;
   margin-left:auto;
   margin-right:auto;
   display: flex;
   justify-content: space-between;
 }
 
-#section301div>div{
+#section302div, #section303div{
+  max-width: 956px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#section303div{
+  margin-top:-300px;
+}
+
+#section301div>div, #section302div>div, #section303div>div{
   margin-left:auto;
   margin-right:auto;
 }
@@ -132,7 +189,6 @@ a:hover{
 }
 
 .sectionnav>h6>div{
-  
   padding-right:20px;
   margin-right:20px;
   border-right: 2px solid #979797;
@@ -144,11 +200,63 @@ a:hover{
   border-right:none;
 }
 
+.sectionnav h6>div>div{
+padding-bottom:4px;
+}
+
 .navRed{
-  padding-bottom:4px;
   border-bottom: #ef6f70 solid 2px;
 }
 
 .navRed a {
   color:#ef6f70;
+}
+
+
+/*------------------section302-----------------*/
+
+.grayLineChap3{
+  width: 2px;
+  height:20px;
+  background-color:gray;
+}
+
+.sectionnavv h6>div{
+    width:100%;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.sectionnavv h6>div>div>div{
+padding-bottom:4px;
+}
+
+.approachText{
+  font-size:11px;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+  font-weight:700;
+}
+
+/*-------------------section303-------------------*/
+
+.bottom5{
+  margin-bottom: 5px;
+}
+
+.sec303title{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+    color:#231f20;
+}
+
+.three-span{
+  -webkit-column-span: all; /* Chrome, Safari, Opera */
+  column-span: all;
 }

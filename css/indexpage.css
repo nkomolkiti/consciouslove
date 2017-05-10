@@ -189,7 +189,14 @@
 }
 
 .radioTextIndex{
-  padding-left:5px;
+  width:80%;
+  float:left;
+  margin-top:18px;
+}
+
+.pre1, .pre2{
+	float: left;
+	margin-right:10px;
 }
 
 .buttonMargin1{
