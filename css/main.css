@@ -181,6 +181,10 @@ a{
   font-style: italic;
 }
 
+.bolded{
+	font-weight: 700;
+}
+
 .italicIndex{
 	font-style: italic;
 	font-weight: 400;

@@ -725,7 +725,7 @@ btn303_2N.click(function(){
 });
 
 btn303_3P.click(function(){
-	backtoSec302_2();
+	backtoSec303_2();
 });
 
 btn303_3N.click(function(){
