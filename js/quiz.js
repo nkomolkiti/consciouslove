@@ -725,6 +725,7 @@ var popQuizCorrect1 = function(){
 //pop quiz disappear
 function resetPopQuiz1() {
   popQuiz1.fadeOut().empty();
+  setTimeout( function(){popQuiz1.addClass('invisible');}, 500);
 }
 
 //event correct answer
@@ -781,6 +782,7 @@ var popQuizCorrect2 = function(){
 //pop quiz disappear
 function resetPopQuiz2() {
   popQuiz2.fadeOut().empty();
+  setTimeout( function(){popQuiz2.addClass('invisible');}, 500);
 }
 
 //event correct answer
@@ -837,6 +839,7 @@ var popQuizCorrect3 = function(){
 //pop quiz disappear
 function resetPopQuiz3() {
   popQuiz3.fadeOut().empty();
+  setTimeout( function(){popQuiz3.addClass('invisible');}, 500);
 }
 
 //event right answer
