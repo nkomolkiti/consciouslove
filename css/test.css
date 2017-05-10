@@ -1,0 +1,221 @@
+/*-------------------Quiz Nav*/
+#testyourself{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:20px;
+}
+
+#testNav h6>div{
+	width:94%;
+  	max-width: 1000px;
+ 	margin-left:auto;
+  	margin-right:auto;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items:center;
+}
+
+#testNav{
+	padding-left:23px;
+	padding-right:23px;
+}
+
+#testNav h6{
+	padding-left:34px;
+	padding-right:34px;
+	background-color:white;
+
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.hr{
+	width:96%;
+	max-width: 1000px;
+	height: 2px;
+	background-color: lightgray;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.grayLine{
+	width: 2px;
+	height:20px;
+	background-color:lightgray;
+}
+
+.grayedPadding{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.grayed{
+	color:lightgray;
+}
+
+.navRedt{
+	padding-bottom:4px;
+	padding-top:4px;
+	cursor: pointer;
+
+  border-bottom: #ef6f70 solid 2px;
+  color:#ef6f70;
+}
+
+.top26{
+	margin-top:26px;
+}
+
+
+
+/*-----------------QuizNumbers*/
+#testNumbersNav{
+	max-width: 700px;
+	width:100%;
+	height:auto;
+	min-height: 26px;
+	margin-top:30px;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	display: flex;
+  	justify-content: space-between;
+  	align-items:center;
+}
+
+.testNumbersNavHr{
+	height:1px;
+	width:100%;
+	max-width:520px;
+	background-color:lightgray;
+}
+
+#testNumbersNav a{
+	font-size:13px;
+	margin-left:5%;
+}
+
+.redNumber{
+	color:#ef6f70;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#testNumbersNav .grayed{
+	cursor: default;
+}
+
+.blackNumber{
+	color:#231f20;
+	cursor: pointer;
+}
+
+.blackNumber:hover{
+	color:#ef6f70;
+}
+
+
+
+/*-------------------the test itself*/
+#testWrapper{
+	max-width:670px;
+	overflow-x:hidden;
+	width: 100%;
+	min-height:460px;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	
+}
+
+#movingTestDiv{
+	width:3367px;
+}
+
+#movingTestDiv>div{
+	max-width: 670px;
+	display: inline-block;	
+	margin-top:20px;
+}
+
+#movingTestDiv h3, .answers>div{
+	padding:15px 20px 15px 20px;
+}
+
+#movingTestDiv h3{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.answers>div{
+	max-width: 600px;
+	cursor: pointer;
+}
+
+.answers>div:hover{
+  background-color:white;
+}
+
+.whiteBackground{
+  background-color:white;
+}
+
+.radio, .radio2, .radio3, .radio4, .radio5{
+  float:left;
+  margin-right:10px;
+}
+
+.radiotext{
+	float:left;
+	width:90%;
+	font-size: 16px;
+ 	letter-spacing: 0.1px;
+}
+
+.answers img{
+  float:right;
+}
+
+
+
+/*--------------------------------------final badge*/
+#finalBadge{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:20px;
+
+	max-width: 1000px;
+	width: 96%;
+}
+
+#badge{
+	min-height:500px;
+}
+
+#badge h3{
+	margin-top:10px;
+	text-align: center;
+}
+
+.retakeBtn{
+	float:left;
+	margin-top:-250px;
+}
+
+.grayedBtn{
+	float:right;
+	margin-top:-250px;
+}
+
+.badgeText{
+	font-size:10px;
+	line-height: 12px;
+	letter-spacing: 0.3px;
+	text-align: center;
+	margin-top:10px;
+}
+
+/*-------------footer*/
+
+.bottom30{
+	padding-bottom:30px;
+	margin-bottom: 0px;
+}

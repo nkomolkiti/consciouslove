@@ -320,11 +320,11 @@ nav{
 /**------------------- main content --------------------**/
 .inline{
 	display: inline-block;
-	vertical-align: top;
+/*	vertical-align: top;*/
 }
 
 .chapters>h1{
-	font-size:40px;
+	font-size:39px;
 	font-family: avantgarde_med;
 	margin-right:5px;
 }
@@ -332,6 +332,10 @@ nav{
 .chapters>div{
 	padding-top:1px;
 }
+
+/*.chapters>div>h1{
+	margin-top:-5px;
+}*/
 
 .chapters{
 	margin-bottom:35px;
@@ -438,12 +442,12 @@ nav{
 }
 
 /*--------------Footer---------------*/
-#stickyBottomNav{
+/*#stickyBottomNav{
 	position:fixed;
 	bottom:0;
 	width: 100vw;
 	background-color:#231f20;
-}
+}*/
 
 #bottomNav{
 	margin-top:90px;
@@ -478,7 +482,7 @@ nav{
 		width: 100%;
 }
 
-#stickyFooterBtn div{
+/*#stickyFooterBtn div{
 	margin-top:-28px;
 	max-width: 150px;
 	width: 100%;
@@ -490,7 +494,7 @@ nav{
 
 #stickyFooterBtn div:last-child, #footerBtn div:last-child{
 	margin-left:3%;
-}
+}*/
 
 #footerBtn p{
 	padding:20px;
@@ -507,7 +511,7 @@ nav{
 	-moz-transition: all 0.4s ease;
 }
 
-#stickyFooterBtn p{
+/*#stickyFooterBtn p{
 	padding:20px;
 	border:#231f20 1px solid;
 	color:#231f20;
@@ -521,8 +525,8 @@ nav{
 
 	transition: all 0.4s ease;
 	-webkit-transition: all 0.4s ease; /* for Safari & Chrome */
-	-moz-transition: all 0.4s ease;
-}
+/*	-moz-transition: all 0.4s ease;
+}*/
 
 .bottomNavPosition{
 	position: absolute;
@@ -572,6 +576,53 @@ footer>div{
 }
 
 .buttonTextWhite p:hover{
+	color:white;
+	background-color:#231f20;
+	font-weight: 700;
+
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease; /* for Safari & Chrome */
+	-moz-transition: all 0.4s ease;
+}
+
+
+.buttonTextGray{
+	margin-top:18px;
+	cursor: default;
+	width:140px;
+/*	background-color:white;*/
+}
+
+.buttonTextGray p{
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 0.8px;
+	text-align: center;
+
+	padding:20px;
+	border: solid 1px #A9A9A9;
+	color:#A9A9A9;
+}
+
+.buttonTextWhites p{
+	font-size: 10px;
+	font-weight: 700;
+/*	line-height: 1.2;*/
+	letter-spacing: 0.8px;
+	text-align: center;
+
+	padding:20px;
+	border: solid 1px #231f20;
+}
+
+.buttonTextWhites{
+	cursor: pointer;
+	width:120px;
+/*	background-color:white;*/
+}
+
+.buttonTextWhites p:hover{
 	color:white;
 	background-color:#231f20;
 	font-weight: 700;
