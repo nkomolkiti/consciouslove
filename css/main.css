@@ -68,7 +68,7 @@ body{
 .left{float: left;}
 .right{float:right;}
 .marginLeft{margin-left:25px;}
-
+.invisible{visibility: hidden;}
 
 /*TYPE----------*/
 @font-face {
@@ -635,7 +635,76 @@ footer>div{
 
 /*--------------popQuiz---------------*/
 
+.popQuiz{
+	width:220px;
+	min-height:290px;
 
+	background-color: white;
+	border: solid 1px #ef6f70;
+
+	position: absolute;
+	z-index: 5;
+	float:right;
+	right:10%;
+
+	display:none;
+}
+
+#popQuiz3_1{
+	top:1530px;
+}
+
+#popQuiz2_2{ /*favoritism*/
+	top:1600px;
+}
+
+#popQuiz2_1{
+	top:400px;
+}
+
+
+.popQuiz>div{
+	padding:20px;
+}
+
+.popQuiz h6{
+	font-weight: 700;
+}
+
+.popQuestion{
+	line-height: 22px;
+	font-size:15px;
+	margin-top:10px;
+	font-weight: 700;
+	margin-bottom:16px;
+}
+
+.radiopop{
+	float:left;
+	margin-right:10px;
+}
+
+.radiopoptext{
+	font-family: 'Lato', sans-serif;
+	float:left;
+	width:80%;
+	font-size:15px;
+	line-height: 22px;
+	margin-bottom:10px;
+}
+
+input{
+	outline:none;
+}
+
+.centered{
+	text-align: center;
+}
+
+.theBadge1 img, .theBadge2 img, .theBadge3 img{
+	margin-top:10px;
+	margin-bottom:10px;
+}
 
 
 

@@ -682,5 +682,176 @@ $('.retakeBtn').click(function (){
 });
 
 //--------------------------------------------------------------------
-
 });//end document ready
+
+//popQuiz----------------------------------------------
+
+//chapter2_1-------------------------------------------
+var theBadge1 = $('.theBadge1');
+var wrongAnswer1 = $('.wrongPopAnswer1');
+var quizSection1 = $('.theQuiz1');
+var popQuiz1 = $('#popQuiz2_1');
+
+//fade in on scroll
+$(window).scroll(function popQuizFadeIn1() {
+    if($(window).scrollTop() > 200) {
+        popQuiz1.fadeIn();
+    }
+});
+
+//make sure all things are checked-------
+$('#pop1a1div').click( function(){
+  $("#pop1a1").prop("checked", true);
+});
+
+$('#pop1a2div').click( function(){
+  $("#pop1a2").prop("checked", true);
+});
+
+//if get correct
+var popQuizCorrect1 = function(){
+      theBadge1.fadeIn();
+      quizSection1.removeClass('show');
+      quizSection1.addClass('hide');
+};
+
+//if get wrong
+  var popQuizWrong1 = function(){
+      wrongAnswer1.fadeIn();
+      quizSection1.removeClass('show');
+      quizSection1.addClass('hide');
+};
+
+//pop quiz disappear
+function resetPopQuiz1() {
+  popQuiz1.fadeOut().empty();
+}
+
+//event correct answer
+$('#pop1a2div').click(function(){
+  setTimeout( function(){popQuizCorrect1();}, 400);
+  setTimeout(resetPopQuiz1, 3400); //disappear funciton
+});
+
+//wrong answer
+$('#pop1a1div').click(function(){
+  setTimeout( function(){popQuizWrong1();}, 400);
+  setTimeout(resetPopQuiz21, 6000); //disappear funciton
+}); 
+
+
+
+
+//chapter2_2 favoritism-------------------------------------------
+var theBadge2 = $('.theBadge2');
+var wrongAnswer2 = $('.wrongPopAnswer2');
+var quizSection2 = $('.theQuiz2');
+var popQuiz2 = $('#popQuiz2_2');
+
+//fade in on scroll
+$(window).scroll(function popQuizFadeIn2() {
+    if($(window).scrollTop() > 1400) {
+        popQuiz2.fadeIn();
+    }
+});
+
+//make sure all things are checked-------
+$('#pop2a1div').click( function(){
+  $("#pop2a1").prop("checked", true);
+});
+
+$('#pop2a2div').click( function(){
+  $("#pop2a2").prop("checked", true);
+});
+
+//if get correct
+var popQuizCorrect2 = function(){
+      theBadge2.fadeIn();
+      quizSection2.removeClass('show');
+      quizSection2.addClass('hide');
+};
+
+//if get wrong
+  var popQuizWrong2 = function(){
+      wrongAnswer2.fadeIn();
+      quizSection2.removeClass('show');
+      quizSection2.addClass('hide');
+};
+
+//pop quiz disappear
+function resetPopQuiz2() {
+  popQuiz2.fadeOut().empty();
+}
+
+//event correct answer
+$('#pop2a1div').click(function(){
+  setTimeout( function(){popQuizCorrect2();}, 400);
+  setTimeout(resetPopQuiz2, 3400); //disappear funciton
+});
+
+//wrong answer
+$('#pop2a2div').click(function(){
+  setTimeout( function(){popQuizWrong2();}, 400);
+  setTimeout(resetPopQuiz2, 6000); //disappear funciton
+}); 
+
+
+
+
+//chapter3_1-------------------------------------------
+var theBadge3 = $('.theBadge3');
+var wrongAnswer3 = $('.wrongPopAnswer3');
+var quizSection3 = $('.theQuiz3');
+var popQuiz3 = $('#popQuiz3_1');
+
+//fade in on scroll
+$(window).scroll(function popQuizFadeIn3() {
+    if($(window).scrollTop() > 1280) {
+        popQuiz3.fadeIn();
+    }
+});
+
+//make sure all things are checked-------
+$('#pop3a1div').click( function(){
+  $("#pop3a1").prop("checked", true);
+});
+
+$('#pop3a2div').click( function(){
+  $("#pop3a2").prop("checked", true);
+});
+
+//if get correct
+var popQuizCorrect3 = function(){
+      theBadge3.fadeIn();
+      quizSection3.removeClass('show');
+      quizSection3.addClass('hide');
+};
+
+//if get wrong
+  var popQuizWrong3 = function(){
+      wrongAnswer3.fadeIn();
+      quizSection3.removeClass('show');
+      quizSection3.addClass('hide');
+};
+
+//pop quiz disappear
+function resetPopQuiz3() {
+  popQuiz3.fadeOut().empty();
+}
+
+//event right answer
+$('#pop3a1div').click(function(){
+  setTimeout( function(){popQuizCorrect3();}, 400);
+  setTimeout(resetPopQuiz3, 3400); //disappear funciton
+});
+
+//wrong answer
+$('#pop3a2div').click(function(){
+  setTimeout( function(){popQuizWrong3();}, 400);
+  setTimeout(resetPopQuiz3, 6500); //disappear funciton
+}); 
+
+
+
+
+//--------------------------------------------------------------------
