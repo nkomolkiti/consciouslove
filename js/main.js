@@ -15,7 +15,7 @@ exitButton.click(function(){
 });
 
 $('#logoImage').append('<img src="image/logowhite.svg" alt="logo" class="left logo" width="80px">');
-$('#profileMenu').append('<img src="image/profiletest.jpg" alt="profilc pic">');
+$('#profileMenu').append('<img src="image/profilepic.png" alt="profilc pic">');
 $('#selectChapters').append('<div><p class="chaptersBtn buttonText">SELECT CHAPTERS<img src="image/carrot.svg" width="10px" class="carrot"></p></div>');
 $('#homepage').append('<p class="buttonText chaptersBtn">ABOUT</p>');
 
