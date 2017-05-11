@@ -83,6 +83,13 @@
 	margin-top:50px;
 }
 
+@media(max-width:1000px){
+	.section00{
+		margin-top:0px;
+	}
+}
+
+
 /**------------------- prequiz --------------------**/
 
 #section02{
@@ -144,6 +151,13 @@
 	padding-top:65px;
 }
 
+@media(max-width: 1000px){
+	.paddingTop57{
+		padding-top:20px;
+	}
+
+}
+
 .quizquestion{
   font-size:26px;
   font-weight: 700;
@@ -167,6 +181,8 @@
 	float:right;
 	margin-top:-300px;
 	right:230px;
+
+	display: block;
 }
 
 #preQuizQuestion{
@@ -215,6 +231,12 @@
 	padding-left:90px;
 }
 
+@media(max-width:1000px){
+	.mainTextIndex{
+		padding-left:0px;
+	}
+}
+
 .bottom120{
 	padding-bottom:120px;
 }
@@ -230,15 +252,30 @@
 }
 
 .photoBondingBox{
-	width:800px;
-	background-color:gray;
-
+	max-width:800px;
+	width:94%;
 	margin-top:-90px;
 }
 
 .bondingbox{
 	margin-top:140px;
 }
+
+@media(max-width: 700px){
+	#preQuizWrapper{
+			float:none;
+			margin-top:25px;
+			right:0px;
+	}
+/*	.photoBondingBox{
+	margin-top:-90px;
+	}*/
+
+	.bondingbox{
+	margin-top:50px;
+	}
+}
+
 
 /**------------------- Curvey Element --------------------**/
 .curveyElementIndex{
@@ -256,6 +293,7 @@
 
 .width300{
 	max-width: 425px;
+
 }
 
 .curveWrapperIndex{
@@ -279,5 +317,11 @@
 @media(max-width: 1000px){
 	.curveWrapperIndex{
 		display:none;
+	}
+}
+
+@media(max-width:700px){
+	.width300{
+		max-width: 94%;
 	}
 }

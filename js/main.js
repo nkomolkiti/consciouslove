@@ -17,7 +17,7 @@ exitButton.click(function(){
 $('#logoImage').append('<img src="image/logowhite.svg" alt="logo" class="left logo" width="80px">');
 $('#profileMenu').append('<img src="image/profilepic.png" alt="profilc pic">');
 $('#selectChapters').append('<div><p class="chaptersBtn buttonText">SELECT CHAPTERS<img src="image/carrot.svg" width="10px" class="carrot"></p></div>');
-$('#homepage').append('<p class="buttonText chaptersBtn">ABOUT</p>');
+$('#homepage').append('<p class="buttonText chaptersBtn aboutBtn">ABOUT</p>');
 
 $('#allChapterLinks').append('<div id="chapter1Link"><p class="chapterText">CHAPTER 01</p><h1 class="menuTitle">intention & meaning</h1><p>It is easy to miscommunicate when talking to children. A normal statement or certain reactions might turn into a quiet form of verbal abuse if used incorrectly and repetitively. Flip the cards to learn about the alternatives!</p></div><div id="chapter2Link"><p class="chapterText">CHAPTER 02</p><h1 class="menuTitle">verbal abuse</h1><p>Learn more about verbal abuse: how it can be quiet, repetitive, and unintentional. This chapter includes the description, impacts, and examples for each type of verbal absue.</p></div><div id="chapter3Link"><p class="chapterText">CHAPTER 03</p><h1 class="menuTitle">parenting tips</h1><p>It can be stressful for new parents to take care of children. This chapter includes tips to talking positively, common situations that considered stressful, and how to approach children by age.</p></div>');
 
@@ -37,6 +37,21 @@ $('#chapter2Link').click(function(){
 });
 
 $('#chapter3Link').click(function(){
+	window.location.href = 'chapter-3.html';
+  return false;
+});
+
+$('#chapter1Links').click(function(){
+	window.location.href = 'chapter-1.html';
+  return false;
+});
+
+$('#chapter2Links').click(function(){
+	window.location.href = 'chapter-2.html';
+  return false;
+});
+
+$('#chapter3Links').click(function(){
 	window.location.href = 'chapter-3.html';
   return false;
 });

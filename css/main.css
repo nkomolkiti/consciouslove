@@ -321,6 +321,50 @@ nav{
 	margin-left:0px;
 }
 
+.aboutBtn{display: block;}
+.courseName{
+	width:300px;
+}
+
+#mobileMenu{
+	display: none;
+}
+
+
+@media(max-width: 700px){
+	.aboutBtn{
+		display: none;
+	}
+
+	#selectChapters, #homepage{
+	margin-top:12px;
+	border-right: none;
+	height:26px;
+	margin-right:0px;
+	}
+
+	.courseName{
+		width:200px;
+	}
+
+	#mobileMenu{
+	display:block;
+	}
+
+	#allChapterLinks{
+		display: none;
+	}
+
+	.menu>div>div{
+	display:block;
+/*	margin-left:20px;*/
+	vertical-align:middle;
+	min-height:70px;
+
+}
+
+}
+
 
 /**------------------- main content --------------------**/
 .inline{
@@ -388,6 +432,12 @@ nav{
 
 .mainText{
 	margin-left:57px;
+}
+
+@media(max-width:700px){
+	.mainText{
+		margin-left:0px;
+	}
 }
 
 .paragraphText{
