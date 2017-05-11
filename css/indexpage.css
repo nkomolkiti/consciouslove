@@ -98,6 +98,7 @@
 
   width: 100vw;
 	margin-top:50px;
+	padding-bottom:50px;
 }
 
 .whiteLayer{
@@ -254,11 +255,11 @@
 .photoBondingBox{
 	max-width:800px;
 	width:94%;
-	margin-top:-90px;
+	margin-top:-140px;
 }
 
 .bondingbox{
-	margin-top:140px;
+	margin-top:120px;
 }
 
 @media(max-width: 700px){
