@@ -856,7 +856,7 @@ $('#pop3a1div').click(function(){
 //wrong answer
 $('#pop3a2div').click(function(){
   setTimeout( function(){popQuizWrong3();}, 400);
-  setTimeout(resetPopQuiz3, 6500); //disappear funciton
+  setTimeout(resetPopQuiz3, 10000); //disappear funciton
 }); 
 
 
