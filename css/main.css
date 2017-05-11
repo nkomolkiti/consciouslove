@@ -152,10 +152,11 @@ h6{ /*indicate chapter one of three etc.*/
 }
 
 .chapterText{
-	font-size: 10px;
+	font-family: 'avantgarde_bk', sans-serif;
+	font-size: 9px;
   font-weight: 400;
   line-height: 1.2;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.3em;
 	margin-bottom: 7px;
 }
 
