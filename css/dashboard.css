@@ -9,3 +9,51 @@
   	z-index: -20;
   	opacity: 0.5;
 }
+
+#topSection{
+	margin-top:30px;
+	margin-bottom:50px;
+	display: flex;
+ 	justify-content: space-between;
+
+}
+
+.profileName{
+	font-size:14px;
+	line-height: 20px;
+	letter-spacing: 1.1px;
+	font-weight: 700;
+}
+
+.profile>div{
+	display: inline-block;
+}
+
+.profile>div:first-child{
+	margin-right:20px;
+}
+
+.ongoing{
+	max-width: 300px;
+}
+
+.whiteBox>div{
+	padding:25px;
+	margin-left:35px;
+}
+
+.whiteBox{
+	background-color: white;
+	border:#ef6f70 solid 1px;
+	height:200px;
+}
+
+a{
+	color:#231f20;
+}
+
+/*mid section---------------------*/
+
+#midSection{
+	margin-top:28px;
+}
