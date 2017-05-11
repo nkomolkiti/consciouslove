@@ -373,75 +373,75 @@ var aa = $('#testNumbersNav a');
 
 // for (var i = 0; i < aa.length; i++) {
 
-        a1.click(function (){
-          if(a2.hasClass('active')){
-            moveBackOne();
-          } else if(a3.hasClass('active')){
-            moveBackTwo();
-          } else if(a4.hasClass('active')){
-            moveBackThree();
-          } else if(a5.hasClass('active')){
-            resetTo1();
-          };
+        // a1.click(function (){
+        //   if(a2.hasClass('active')){
+        //     moveBackOne();
+        //   } else if(a3.hasClass('active')){
+        //     moveBackTwo();
+        //   } else if(a4.hasClass('active')){
+        //     moveBackThree();
+        //   } else if(a5.hasClass('active')){
+        //     resetTo1();
+        //   };
 
-          redA1();
-        });
+        //   redA1();
+        // });
 
-        a2.click(function (){
-          if(a3.hasClass('active')){
-            moveBackOne();
-          } else if(a4.hasClass('active')){
-            moveBackTwo();
-          } else if(a5.hasClass('active')){
-            moveBackThree();
-          } else if(a1.hasClass('active')){
-            moveOne();
-          };
+        // a2.click(function (){
+        //   if(a3.hasClass('active')){
+        //     moveBackOne();
+        //   } else if(a4.hasClass('active')){
+        //     moveBackTwo();
+        //   } else if(a5.hasClass('active')){
+        //     moveBackThree();
+        //   } else if(a1.hasClass('active')){
+        //     moveOne();
+        //   };
 
-          redA2();
-        });
+        //   redA2();
+        // });
 
-        a3.click(function (){
-          if(a4.hasClass('active')){
-            moveBackOne();
-          } else if(a5.hasClass('active')){
-            moveBackTwo();
-          } else if(a2.hasClass('active')){
-            moveOne();
-          } else if(a1.hasClass('active')){
-            moveTwo();
-          };
+        // a3.click(function (){
+        //   if(a4.hasClass('active')){
+        //     moveBackOne();
+        //   } else if(a5.hasClass('active')){
+        //     moveBackTwo();
+        //   } else if(a2.hasClass('active')){
+        //     moveOne();
+        //   } else if(a1.hasClass('active')){
+        //     moveTwo();
+        //   };
           
-          redA3();
-        });
+        //   redA3();
+        // });
 
-        a4.click(function (){
-          if(a5.hasClass('active')){
-            moveBackOne();
-          } else if(a1.hasClass('active')){
-            moveThree();
-          } else if(a3.hasClass('active')){
-            moveOne();
-          } else if(a2.hasClass('active')){
-            moveTwo();
-          };
+        // a4.click(function (){
+        //   if(a5.hasClass('active')){
+        //     moveBackOne();
+        //   } else if(a1.hasClass('active')){
+        //     moveThree();
+        //   } else if(a3.hasClass('active')){
+        //     moveOne();
+        //   } else if(a2.hasClass('active')){
+        //     moveTwo();
+        //   };
           
-          redA4();
-        });
+        //   redA4();
+        // });
 
-        a5.click(function (){
-          if(a4.hasClass('active')){
-            moveOne();
-          } else if(a2.hasClass('active')){
-            moveThree();
-          } else if(a1.hasClass('active')){
-            moveFour();
-          } else if(a3.hasClass('active')){
-            moveTwo();
-          };
+        // a5.click(function (){
+        //   if(a4.hasClass('active')){
+        //     moveOne();
+        //   } else if(a2.hasClass('active')){
+        //     moveThree();
+        //   } else if(a1.hasClass('active')){
+        //     moveFour();
+        //   } else if(a3.hasClass('active')){
+        //     moveTwo();
+        //   };
           
-          redA5();
-        });
+        //   redA5();
+        // });
 
 
 
@@ -449,125 +449,125 @@ var aa = $('#testNumbersNav a');
 // };
 
 
-function redA1(){
-  a1.addClass('redNumber');
-  a1.removeClass('blackNumber');
-  a2.removeClass('redNumber');
-  a2.addClass('blackNumber');
-  a3.removeClass('redNumber');
-  a3.addClass('blackNumber');
-  a4.removeClass('redNumber');
-  a4.addClass('blackNumber');
-  a5.removeClass('redNumber');
-  a5.addClass('blackNumber');
+// function redA1(){
+//   a1.addClass('redNumber');
+//   a1.removeClass('blackNumber');
+//   a2.removeClass('redNumber');
+//   a2.addClass('blackNumber');
+//   a3.removeClass('redNumber');
+//   a3.addClass('blackNumber');
+//   a4.removeClass('redNumber');
+//   a4.addClass('blackNumber');
+//   a5.removeClass('redNumber');
+//   a5.addClass('blackNumber');
 
-  a1.addClass('active');
-  a1.removeClass('deactive');
-  a2.removeClass('active');
-  a2.addClass('deactive');
-  a3.removeClass('active');
-  a3.addClass('deactive');
-  a4.removeClass('active');
-  a4.addClass('deactive');
-  a5.removeClass('active');
-  a5.addClass('deactive');
-};
+  // a1.addClass('active');
+  // a1.removeClass('deactive');
+  // a2.removeClass('active');
+  // a2.addClass('deactive');
+  // a3.removeClass('active');
+  // a3.addClass('deactive');
+  // a4.removeClass('active');
+  // a4.addClass('deactive');
+  // a5.removeClass('active');
+  // a5.addClass('deactive');
+// };
 
-function redA2(){
-  a1.removeClass('redNumber');
-  a1.addClass('blackNumber');
-  a2.addClass('redNumber');
-  a2.removeClass('blackNumber');
-  a3.removeClass('redNumber');
-  a3.addClass('blackNumber');
-  a4.removeClass('redNumber');
-  a4.addClass('blackNumber');
-  a5.removeClass('redNumber');
-  a5.addClass('blackNumber');
+// function redA2(){
+//   a1.removeClass('redNumber');
+//   a1.addClass('blackNumber');
+//   a2.addClass('redNumber');
+//   a2.removeClass('blackNumber');
+//   a3.removeClass('redNumber');
+//   a3.addClass('blackNumber');
+//   a4.removeClass('redNumber');
+//   a4.addClass('blackNumber');
+//   a5.removeClass('redNumber');
+//   a5.addClass('blackNumber');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.addClass('active');
-  a2.removeClass('deactive');
-  a3.removeClass('active');
-  a3.addClass('deactive');
-  a4.removeClass('active');
-  a4.addClass('deactive');
-  a5.removeClass('active');
-  a5.addClass('deactive');
-};
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.addClass('active');
+  // a2.removeClass('deactive');
+  // a3.removeClass('active');
+  // a3.addClass('deactive');
+  // a4.removeClass('active');
+  // a4.addClass('deactive');
+  // a5.removeClass('active');
+  // a5.addClass('deactive');
+// };
 
-function redA3(){
-  a1.removeClass('redNumber');
-  a1.addClass('blackNumber');
-  a2.removeClass('redNumber');
-  a2.addClass('blackNumber');
-  a3.addClass('redNumber');
-  a3.removeClass('blackNumber');
-  a4.removeClass('redNumber');
-  a4.addClass('blackNumber');
-  a5.removeClass('redNumber');
-  a5.addClass('blackNumber');
+// function redA3(){
+//   a1.removeClass('redNumber');
+//   a1.addClass('blackNumber');
+//   a2.removeClass('redNumber');
+//   a2.addClass('blackNumber');
+//   a3.addClass('redNumber');
+//   a3.removeClass('blackNumber');
+//   a4.removeClass('redNumber');
+//   a4.addClass('blackNumber');
+//   a5.removeClass('redNumber');
+//   a5.addClass('blackNumber');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.removeClass('active');
-  a2.addClass('deactive');
-  a3.addClass('active');
-  a3.removeClass('deactive');
-  a4.removeClass('active');
-  a4.addClass('deactive');
-  a5.removeClass('active');
-  a5.addClass('deactive');
-};
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.removeClass('active');
+  // a2.addClass('deactive');
+  // a3.addClass('active');
+  // a3.removeClass('deactive');
+  // a4.removeClass('active');
+  // a4.addClass('deactive');
+  // a5.removeClass('active');
+  // a5.addClass('deactive');
+// };
 
-function redA4(){
-  a1.removeClass('redNumber');
-  a1.addClass('blackNumber');
-  a2.removeClass('redNumber');
-  a2.addClass('blackNumber');
-  a3.removeClass('redNumber');
-  a3.addClass('blackNumber');
-  a4.addClass('redNumber');
-  a4.removeClass('blackNumber');
-  a5.removeClass('redNumber');
-  a5.addClass('blackNumber');
+// function redA4(){
+//   a1.removeClass('redNumber');
+//   a1.addClass('blackNumber');
+//   a2.removeClass('redNumber');
+//   a2.addClass('blackNumber');
+//   a3.removeClass('redNumber');
+//   a3.addClass('blackNumber');
+//   a4.addClass('redNumber');
+//   a4.removeClass('blackNumber');
+//   a5.removeClass('redNumber');
+//   a5.addClass('blackNumber');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.removeClass('active');
-  a2.addClass('deactive');
-  a3.removeClass('active');
-  a3.addClass('deactive');
-  a4.addClass('active');
-  a4.removeClass('deactive');
-  a5.removeClass('active');
-  a5.addClass('deactive');
-};
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.removeClass('active');
+  // a2.addClass('deactive');
+  // a3.removeClass('active');
+  // a3.addClass('deactive');
+  // a4.addClass('active');
+  // a4.removeClass('deactive');
+  // a5.removeClass('active');
+  // a5.addClass('deactive');
+// };
 
-function redA5(){
-  a1.removeClass('redNumber');
-  a1.addClass('blackNumber');
-  a2.removeClass('redNumber');
-  a2.addClass('blackNumber');
-  a3.removeClass('redNumber');
-  a3.addClass('blackNumber');
-  a4.removeClass('redNumber');
-  a4.addClass('blackNumber');
-  a5.addClass('redNumber');
-  a5.removeClass('blackNumber');
+// function redA5(){
+//   a1.removeClass('redNumber');
+//   a1.addClass('blackNumber');
+//   a2.removeClass('redNumber');
+//   a2.addClass('blackNumber');
+//   a3.removeClass('redNumber');
+//   a3.addClass('blackNumber');
+//   a4.removeClass('redNumber');
+//   a4.addClass('blackNumber');
+//   a5.addClass('redNumber');
+//   a5.removeClass('blackNumber');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.removeClass('active');
-  a2.addClass('deactive');
-  a3.removeClass('active');
-  a3.addClass('deactive');
-  a4.removeClass('active');
-  a4.addClass('deactive');
-  a5.addClass('active');
-  a5.removeClass('deactive');
-};
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.removeClass('active');
+  // a2.addClass('deactive');
+  // a3.removeClass('active');
+  // a3.addClass('deactive');
+  // a4.removeClass('active');
+  // a4.addClass('deactive');
+  // a5.addClass('active');
+  // a5.removeClass('deactive');
+// };
 
 
 function redA2init(){
@@ -582,16 +582,16 @@ function redA2init(){
   // a5.removeClass('redNumber');
   // a5.addClass('blackNumber');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.addClass('active');
-  a2.removeClass('deactive');
-  a3.removeClass('active');
-  a3.addClass('deactive');
-  a4.removeClass('active');
-  a4.addClass('deactive');
-  a5.removeClass('active');
-  a5.addClass('deactive');
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.addClass('active');
+  // a2.removeClass('deactive');
+  // a3.removeClass('active');
+  // a3.addClass('deactive');
+  // a4.removeClass('active');
+  // a4.addClass('deactive');
+  // a5.removeClass('active');
+  // a5.addClass('deactive');
 };
 
 function redA3init(){
@@ -606,16 +606,16 @@ function redA3init(){
   // a5.removeClass('redNumber');
   // a5.addClass('blackNumber');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.removeClass('active');
-  a2.addClass('deactive');
-  a3.addClass('active');
-  a3.removeClass('deactive');
-  a4.removeClass('active');
-  a4.addClass('deactive');
-  a5.removeClass('active');
-  a5.addClass('deactive');
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.removeClass('active');
+  // a2.addClass('deactive');
+  // a3.addClass('active');
+  // a3.removeClass('deactive');
+  // a4.removeClass('active');
+  // a4.addClass('deactive');
+  // a5.removeClass('active');
+  // a5.addClass('deactive');
 };
 
 function redA4init(){
@@ -630,16 +630,16 @@ function redA4init(){
   // a5.removeClass('redNumber');
   // a5.addClass('grayed');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.removeClass('active');
-  a2.addClass('deactive');
-  a3.removeClass('active');
-  a3.addClass('deactive');
-  a4.addClass('active');
-  a4.removeClass('deactive');
-  a5.removeClass('active');
-  a5.addClass('deactive');
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.removeClass('active');
+  // a2.addClass('deactive');
+  // a3.removeClass('active');
+  // a3.addClass('deactive');
+  // a4.addClass('active');
+  // a4.removeClass('deactive');
+  // a5.removeClass('active');
+  // a5.addClass('deactive');
 };
 
 function redA5init(){
@@ -654,16 +654,16 @@ function redA5init(){
   a5.addClass('redNumber');
   a5.removeClass('grayed');
 
-  a1.removeClass('active');
-  a1.addClass('deactive');
-  a2.removeClass('active');
-  a2.addClass('deactive');
-  a3.removeClass('active');
-  a3.addClass('deactive');
-  a4.removeClass('active');
-  a4.addClass('deactive');
-  a5.addClass('active');
-  a5.removeClass('deactive');
+  // a1.removeClass('active');
+  // a1.addClass('deactive');
+  // a2.removeClass('active');
+  // a2.addClass('deactive');
+  // a3.removeClass('active');
+  // a3.addClass('deactive');
+  // a4.removeClass('active');
+  // a4.addClass('deactive');
+  // a5.addClass('active');
+  // a5.removeClass('deactive');
 };
 
 
