@@ -1,0 +1,11 @@
+.texturedBackground{
+	background: url('../image/white-pattern.png');
+  	background-repeat: repeat;
+  	height:100vh;
+  	width:100vw;
+  	position: absolute;
+  	top:0;
+  	left:0;
+  	z-index: -20;
+  	opacity: 0.5;
+}
