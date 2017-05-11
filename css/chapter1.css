@@ -28,6 +28,8 @@
 	margin-right: 10px;
 	margin-bottom: 20px;
 	display: inline-block;
+
+	
 	}
 
 
@@ -141,7 +143,7 @@
   font-size: 20px;
 }
 
-.front01 font{
+.flip1{
   font-size: 50px;
   line-height: 55px;
 }
@@ -209,3 +211,141 @@
 }
 
 /**------------------- end flipcards --------------------**/
+
+/*flip2--------------*/
+
+.sadFace{
+	padding-top:40px;
+}
+
+.back02, .front02{
+	font-size:14px;
+	text-align: center;
+	font-family: avantgarde_demi;
+	letter-spacing: 2px;
+
+	margin-top:40px;
+}
+
+/*flip3--------------*/
+
+.avantgardeBk{
+	font-family: 'avantgarde_bk', sans-serif;
+	text-align: left;
+	line-height: 20px;
+	letter-spacing: 0.03em;
+}
+
+.eyeroller{
+	padding-left:10px;
+	margin-top:20px;
+}
+
+.flip3line{
+	width:50px;
+	height:3px;
+	background-color: white;
+	margin-top:30px;
+	margin-left:-160px;
+}
+
+.front03>div{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.back03{
+	padding: 40px 40px 0px 20px;
+	 font-size:28px;
+  line-height:35px;
+  max-width:300px;
+}
+
+.avantgardemed{
+	font-family: avantgarde_med;
+  text-align: left;
+  letter-spacing: 0.03em;
+}
+
+.info3{
+	padding: 0px 40px 0px 20px;
+	max-width:300px;
+}
+
+
+/*flip4--------------*/
+
+.front04{
+	max-width:300px;
+}
+
+.flip4{
+	  font-size: 50px;
+  line-height: 53px;
+}
+
+.crying{
+	margin-left:-310px;
+	margin-top:40px;
+
+
+}
+
+.front044{
+	overflow: hidden;
+}
+
+.info4{
+	padding: 40px 40px 0px 20px;
+	max-width:300px;
+}
+
+.avantgardebold{
+  font-family: avantgarde_bold;
+  letter-spacing: 0.03em;
+	text-align: left; /*for the text within the box*/
+}
+
+.paddingBack{
+		padding: 10px 0px 0px 20px;
+}
+
+/*flip5---------------------*/
+
+.paddingFront{
+	margin-left:10px;
+}
+
+.front05{
+	padding-left:40px;
+	line-height: 30px;
+}
+
+.flip5line{
+	width:50px;
+	height:3px;
+	background-color: transparent;
+	border-bottom:solid 3px white;
+	margin-left:-225px;
+	margin-top:40px;
+	padding-top:5px;
+}
+
+.flipp5>div{
+	display:inline-block;
+	margin-top:40px;
+	vertical-align: top;
+}
+
+.jokeimg{
+	margin-left:-100px;
+}
+
+.redLine{
+
+}
+
+.back05{
+	max-width: 300px;
+}
