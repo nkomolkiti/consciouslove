@@ -250,6 +250,10 @@
 	float:right;
 }
 
+.alignLeft{
+	text-align: left;
+}
+
 .curveWrapperIndex{
 	right: 0;
 	top:0;
