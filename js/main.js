@@ -19,8 +19,6 @@ $('#profileMenu').append('<img src="image/profiletest.jpg" alt="profilc pic">');
 $('#selectChapters').append('<div><p class="chaptersBtn buttonText">SELECT CHAPTERS<img src="image/carrot.svg" width="10px" class="carrot"></p></div>');
 $('#homepage').append('<p class="buttonText chaptersBtn">ABOUT</p>');
 
-// $('#allChapterLinks').append('<div id="chapter1Link"><p class="chapterText">CHAPTER ONE</p><h1 class="menuTitle">intention & meaning</h1><p>It is easy to miscommunicate when talking to children. A normal statement or certain reactions might turn into a quiet form of verbal abuse if used incorrectly and repetitively. Flip the cards to learn about the alternatives!</p></div><div id="chapter2Link"><p class="chapterText">CHAPTER TWO</p><h1 class="menuTitle">verbal abuse</h1><p>Learn more about verbal abuse: how it can be quiet, repetitive, and unintentional. This chapter includes the description, impacts, and examples for each type of verbal absue.</p></div><div id="chapter3Link"><p class="chapterText">CHAPTER THREE</p><h1 class="menuTitle">parenting tips</h1><p>It can be stressful for new parents to take care of children. This chapter includes tips to talking positively, common situations that considered stressful, and how to approach children by age.</p></div>');
-
 $('#allChapterLinks').append('<div id="chapter1Link"><p class="chapterText">CHAPTER 01</p><h1 class="menuTitle">intention & meaning</h1><p>It is easy to miscommunicate when talking to children. A normal statement or certain reactions might turn into a quiet form of verbal abuse if used incorrectly and repetitively. Flip the cards to learn about the alternatives!</p></div><div id="chapter2Link"><p class="chapterText">CHAPTER 02</p><h1 class="menuTitle">verbal abuse</h1><p>Learn more about verbal abuse: how it can be quiet, repetitive, and unintentional. This chapter includes the description, impacts, and examples for each type of verbal absue.</p></div><div id="chapter3Link"><p class="chapterText">CHAPTER 03</p><h1 class="menuTitle">parenting tips</h1><p>It can be stressful for new parents to take care of children. This chapter includes tips to talking positively, common situations that considered stressful, and how to approach children by age.</p></div>');
 
 $('#homepage').click(function(){
@@ -199,7 +197,7 @@ function toggleOpen1(){
 	plus1.removeClass('show');
 	minus1.removeClass('hide');
 	minus1.addClass('show');
-}
+};
 
 function toggleClose1(){
 	// tab1title.removeClass('typesTitleRed');
@@ -207,7 +205,7 @@ function toggleClose1(){
 	plus1.removeClass('hide');
 	minus1.addClass('hide');
 	minus1.removeClass('show');
-}
+};
 
 function toggleOpen2(){
 	// tab2title.addClass('typesTitleRed');
@@ -215,7 +213,7 @@ function toggleOpen2(){
 	plus2.removeClass('show');
 	minus2.removeClass('hide');
 	minus2.addClass('show');
-}
+};
 
 function toggleClose2(){
 	// tab2title.removeClass('typesTitleRed');
@@ -223,147 +221,147 @@ function toggleClose2(){
 	plus2.removeClass('hide');
 	minus2.addClass('hide');
 	minus2.removeClass('show');
-}
+};
 
 function toggleOpen3(){
 	plus3.addClass('hide');
 	plus3.removeClass('show');
 	minus3.removeClass('hide');
 	minus3.addClass('show');
-}
+};
 
 function toggleClose3(){
 	plus3.addClass('show');
 	plus3.removeClass('hide');
 	minus3.addClass('hide');
 	minus3.removeClass('show');
-}
+};
 
 function toggleOpen4(){
 	plus4.addClass('hide');
 	plus4.removeClass('show');
 	minus4.removeClass('hide');
 	minus4.addClass('show');
-}
+};
 
 function toggleClose4(){
 	plus4.addClass('show');
 	plus4.removeClass('hide');
 	minus4.addClass('hide');
 	minus4.removeClass('show');
-}
+};
 
 function toggleOpen5(){
 	plus5.addClass('hide');
 	plus5.removeClass('show');
 	minus5.removeClass('hide');
 	minus5.addClass('show');
-}
+};
 
 function toggleClose5(){
 	plus5.addClass('show');
 	plus5.removeClass('hide');
 	minus5.addClass('hide');
 	minus5.removeClass('show');
-}
+};
 
 function toggleOpen6(){
 	plus6.addClass('hide');
 	plus6.removeClass('show');
 	minus6.removeClass('hide');
 	minus6.addClass('show');
-}
+};
 
 function toggleClose6(){
 	plus6.addClass('show');
 	plus6.removeClass('hide');
 	minus6.addClass('hide');
 	minus6.removeClass('show');
-}
+};
 
 function toggleOpen7(){
 	plus7.addClass('hide');
 	plus7.removeClass('show');
 	minus7.removeClass('hide');
 	minus7.addClass('show');
-}
+};
 
 function toggleClose7(){
 	plus7.addClass('show');
 	plus7.removeClass('hide');
 	minus7.addClass('hide');
 	minus7.removeClass('show');
-}
+};
 
 function toggleOpen8(){
 	plus8.addClass('hide');
 	plus8.removeClass('show');
 	minus8.removeClass('hide');
 	minus8.addClass('show');
-}
+};
 
 function toggleClose8(){
 	plus8.addClass('show');
 	plus8.removeClass('hide');
 	minus8.addClass('hide');
 	minus8.removeClass('show');
-}
+};
 
 function toggleOpen9(){
 	plus9.addClass('hide');
 	plus9.removeClass('show');
 	minus9.removeClass('hide');
 	minus9.addClass('show');
-}
+};
 
 function toggleClose9(){
 	plus9.addClass('show');
 	plus9.removeClass('hide');
 	minus9.addClass('hide');
 	minus9.removeClass('show');
-}
+};
 
 function toggleOpen10(){
 	plus10.addClass('hide');
 	plus10.removeClass('show');
 	minus10.removeClass('hide');
 	minus10.addClass('show');
-}
+};
 
 function toggleClose10(){
 	plus10.addClass('show');
 	plus10.removeClass('hide');
 	minus10.addClass('hide');
 	minus10.removeClass('show');
-}
+};
 
 function toggleOpen11(){
 	plus11.addClass('hide');
 	plus11.removeClass('show');
 	minus11.removeClass('hide');
 	minus11.addClass('show');
-}
+};
 
 function toggleClose11(){
 	plus11.addClass('show');
 	plus11.removeClass('hide');
 	minus11.addClass('hide');
 	minus11.removeClass('show');
-}
+};
 
 function toggleOpen12(){
 	plus12.addClass('hide');
 	plus12.removeClass('show');
 	minus12.removeClass('hide');
 	minus12.addClass('show');
-}
+};
 
 function toggleClose12(){
 	plus12.addClass('show');
 	plus12.removeClass('hide');
 	minus12.addClass('hide');
 	minus12.removeClass('show');
-}
+};
 
 
 

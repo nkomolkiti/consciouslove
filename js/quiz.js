@@ -92,12 +92,17 @@ $('#q1a3div').click( function(){
   $(this).addClass('whiteBackground');
 });
 
+$('#q1a4div').click( function(){
+  $("#q1a4").prop("checked", true); 
+  $(this).addClass('whiteBackground');
+});
+
 //correct answer q1--------------------------
 function q1Tick(){
-  $('#q1a1Text').after('<img src="image/check-02.svg" width="21"/>'); //check mark
+  $('#q1a4Text').after('<img src="image/check-02.svg" width="21"/>'); //check mark
  };
 
-var divsQuestion1 = $("#q1a1div, #q1a2div, #q1a3div");
+var divsQuestion1 = $("#q1a1div, #q1a2div, #q1a3div, #q1a4div");
 
 //answer and respond q1----------------------------
 divsQuestion1.click(function answered1(){
@@ -130,17 +135,17 @@ $('#q2a2div').click( function(){
   $(this).addClass('whiteBackground');
 });
 
-$('#q2a3div').click( function(){
-  $("#q2a3").prop("checked", true); 
-  $(this).addClass('whiteBackground');
-});
+// $('#q2a3div').click( function(){
+//   $("#q2a3").prop("checked", true); 
+//   $(this).addClass('whiteBackground');
+// });
 
 //correct answer q2--------------------------
 function q2Tick(){
-  $('#q2a2Text').after('<img src="image/check-02.svg" width="21"/>');
+  $('#q2a1Text').after('<img src="image/check-02.svg" width="21"/>');
  };
 
-var divsQuestion2 = $("#q2a1div, #q2a2div, #q2a3div");
+var divsQuestion2 = $("#q2a1div, #q2a2div");
 
 //answer and respond q2----------------------------
 divsQuestion2.click(function answered2(){
@@ -173,17 +178,17 @@ $('#q3a2div').click( function(){
   $(this).addClass('whiteBackground');
 });
 
-$('#q3a3div').click( function(){
-  $("#q3a3").prop("checked", true); 
-  $(this).addClass('whiteBackground');
-});
+// $('#q3a3div').click( function(){
+//   $("#q3a3").prop("checked", true); 
+//   $(this).addClass('whiteBackground');
+// });
 
 //correct answer q2--------------------------
 function q3Tick(){
-  $('#q3a1Text').after('<img src="image/check-02.svg" width="21"/>');
+  $('#q3a2Text').after('<img src="image/check-02.svg" width="21"/>');
  };
 
-var divsQuestion3 = $("#q3a1div, #q3a2div, #q3a3div");
+var divsQuestion3 = $("#q3a1div, #q3a2div");
 
 //answer and respond q2----------------------------
 divsQuestion3.click(function answered3(){
@@ -259,17 +264,17 @@ $('#q5a2div').click( function(){
   $(this).addClass('whiteBackground');
 });
 
-$('#q5a3div').click( function(){
-  $("#q5a3").prop("checked", true); 
-  $(this).addClass('whiteBackground');
-});
+// $('#q5a3div').click( function(){
+//   $("#q5a3").prop("checked", true); 
+//   $(this).addClass('whiteBackground');
+// });
 
 //correct answer q2--------------------------
 function q5Tick(){
   $('#q5a2Text').after('<img src="image/check-02.svg" width="21"/>');
  };
 
-var divsQuestion5 = $("#q5a1div, #q5a2div, #q5a3div");
+var divsQuestion5 = $("#q5a1div, #q5a2div");
 
 //answer and respond q2----------------------------
 divsQuestion5.click(function answered5(){
@@ -293,35 +298,35 @@ divsQuestion5.click(function answered5(){
 
 //moving functions
 function testMove(){
-  movingDiv.animate({"margin-left":"-=" + (widthq1+4.25)},400);
+  movingDiv.animate({"margin-left":"-=" + (widthq1)},400);
 };
 
 function testMove2(){
-  movingDiv.animate({"margin-left":"-=" + (widthq2+4.25)},400);
+  movingDiv.animate({"margin-left":"-=" + (widthq2)},400);
 }
 
 function testMove3(){
-  movingDiv.animate({"margin-left":"-=" + (widthq3+4.25)},400);
+  movingDiv.animate({"margin-left":"-=" + (widthq3)},400);
 }
 
 function testMove4(){
-  movingDiv.animate({"margin-left":"-=" + (widthq4+4.25)},400);
+  movingDiv.animate({"margin-left":"-=" + (widthq4)},400);
 }
 
 function testMoveBackto1(){
-  movingDiv.animate({"margin-left":"+=" + (widthq2+4.25)},400);
+  movingDiv.animate({"margin-left":"+=" + (widthq2)},400);
 };
 
 function testMoveBackto2(){
-  movingDiv.animate({"margin-left":"+=" + (widthq3+4.25)},400);
+  movingDiv.animate({"margin-left":"+=" + (widthq3)},400);
 };
 
 function testMoveBackto3(){
-  movingDiv.animate({"margin-left":"+=" + (widthq4+4.25)},400);
+  movingDiv.animate({"margin-left":"+=" + (widthq4)},400);
 };
 
 function testMoveBackto4(){
-  movingDiv.animate({"margin-left":"+=" + (widthq5+4.25)},400);
+  movingDiv.animate({"margin-left":"+=" + (widthq5)},400);
 };
 
 function resetTo1(){
@@ -665,8 +670,8 @@ function redA5init(){
 
 //BADGE APPEAR-------------------------
 function badgeAppear(){
-  $('#finalBadge').show(400);
-  $('#thetest').hide(400);
+  $('#finalBadge').fadeIn();
+  $('#thetest').fadeOut();
 };
 
 //RESET--------------------------------
@@ -694,7 +699,7 @@ var popQuiz1 = $('#popQuiz2_1');
 
 //fade in on scroll
 $(window).scroll(function popQuizFadeIn1() {
-    if($(window).scrollTop() > 200) {
+    if($(window).scrollTop() > 30) {
         popQuiz1.fadeIn();
     }
 });
@@ -737,7 +742,7 @@ $('#pop1a2div').click(function(){
 //wrong answer
 $('#pop1a1div').click(function(){
   setTimeout( function(){popQuizWrong1();}, 400);
-  setTimeout(resetPopQuiz21, 6000); //disappear funciton
+  setTimeout(resetPopQuiz1, 12000); //disappear funciton
 }); 
 
 
@@ -751,7 +756,7 @@ var popQuiz2 = $('#popQuiz2_2');
 
 //fade in on scroll
 $(window).scroll(function popQuizFadeIn2() {
-    if($(window).scrollTop() > 1400) {
+    if($(window).scrollTop() > 1000) {
         popQuiz2.fadeIn();
     }
 });
@@ -794,7 +799,7 @@ $('#pop2a1div').click(function(){
 //wrong answer
 $('#pop2a2div').click(function(){
   setTimeout( function(){popQuizWrong2();}, 400);
-  setTimeout(resetPopQuiz2, 6000); //disappear funciton
+  setTimeout(resetPopQuiz2, 10000); //disappear funciton
 }); 
 
 
@@ -808,7 +813,7 @@ var popQuiz3 = $('#popQuiz3_1');
 
 //fade in on scroll
 $(window).scroll(function popQuizFadeIn3() {
-    if($(window).scrollTop() > 1280) {
+    if($(window).scrollTop() > 950) {
         popQuiz3.fadeIn();
     }
 });

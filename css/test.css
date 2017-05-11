@@ -133,6 +133,7 @@
 #movingTestDiv>div{
 	max-width: 670px;
 	display: inline-block;	
+	vertical-align: top;
 	margin-top:20px;
 }
 
