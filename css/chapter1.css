@@ -215,7 +215,7 @@
 /*flip2--------------*/
 
 .sadFace{
-	padding-top:40px;
+	padding-top:50px;
 }
 
 .back02, .front02{
@@ -238,7 +238,7 @@
 
 .eyeroller{
 	padding-left:10px;
-	margin-top:20px;
+	margin-top:10px;
 }
 
 .flip3line{
@@ -289,7 +289,7 @@
 	margin-left:-310px;
 	margin-top:40px;
 
-
+	opacity: 0.5;
 }
 
 .front044{
@@ -319,7 +319,7 @@
 
 .front05{
 	padding-left:40px;
-	line-height: 30px;
+	line-height: 50px;
 }
 
 .flip5line{
@@ -340,12 +340,106 @@
 
 .jokeimg{
 	margin-left:-100px;
-}
-
-.redLine{
-
+	opacity: 0.5;
 }
 
 .back05{
 	max-width: 300px;
+}
+
+/*flip6--------------*/
+.silence{
+	opacity: 0.5;
+	margin-top:120px;
+}
+
+.padding40{
+	padding-left:40px;
+}
+
+.paddingtop80{
+	padding-top:70px;
+}
+
+.info6{
+font-family: avantgarde_med;
+  text-align: left;
+  padding:5px 40px 0px 40px;
+}
+
+
+
+.bold7{
+	  font-family: avantgarde_bold;
+  letter-spacing: 0.03em;
+  line-height: 27px;
+	padding: 40px 40px 0px 40px;
+	text-align: left; /*for the text within the box*/
+}
+
+.flip7{
+	font-size: 50px;
+	line-height: 50px;
+}
+
+.info7{
+	  font-family: avantgarde_med;
+  text-align: left;
+  padding: 40px 40px 0px 40px;
+  max-width: 350px;
+}
+
+
+
+.back08{
+	padding-left:40px;
+	 font-size:30px;
+  	line-height:30px;
+}
+
+.back88>div{
+	display: inline-block;
+}
+
+.redLine{
+	border-top: solid 3px #ef6f70;
+	background-color: transparent;
+	height:0px;
+	width:50px;
+	margin-left:-30px;
+	padding-top:3px;
+
+}
+
+.info88{
+	margin-left:-260px;
+}
+
+
+.nono{
+	padding-left:40px;
+}
+
+.info9{
+	  font-family: avantgarde_med;
+  text-align: left;
+  padding: 3px 40px 0px 40px;
+  max-width: 350px;
+}
+
+.front10{
+	overflow: hidden;
+}
+
+.house{
+	opacity: 0.5;
+	margin-left:0px;
+	margin-top:25px;
+}
+
+.info10{
+	font-family: avantgarde_med;
+  text-align: left;
+  padding: 40px 0px 0px 40px;
+  max-width: 350px;
 }
