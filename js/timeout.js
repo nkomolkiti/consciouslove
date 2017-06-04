@@ -1,3 +1,5 @@
+//only make active during exhibition -- now INACTIVE
+
 $(document).ready(function(){
 //GO TO PAGE IF NO INTERACTION------------------------
  function redirect(){

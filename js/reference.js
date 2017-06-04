@@ -1,5 +1,5 @@
 //REFERNCE-------------------------------------
-$('#reference').click( function(){
+$('.reference').click( function(){
 	$('#popupRef').addClass('show');
 	$('#popupRef').removeClass('hide');
 });
